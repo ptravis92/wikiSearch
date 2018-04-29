@@ -1,0 +1,60 @@
+body{
+  background: linear-gradient(to right, #0cebeb, #20e3b2, #29ffc6);
+}
+#main {
+  width: 80%;
+  margin: 0 auto 5% auto;
+  font-family: Helvetics, sans-serif;
+}
+
+#search{
+  width: 25%;
+  margin: 1% auto 1% auto;
+  display: block;
+  border-radius: 25px;
+  border: none;
+  text-align: center;
+}
+
+button {
+  width: 25%;
+  margin: 0 auto;
+  display: block;
+  border-radius: 25px;
+  border: none;
+}
+
+#header {
+  background-color: black;
+  padding: .25% 0 0.5% 0;
+}
+
+img {
+  width: 25%;
+  margin: 1% auto 5% auto;
+  display: block;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+#main div {
+  width: 70%;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, .8); 
+  border-radius: 25px;
+  border: none;
+}
+
+p:first-child{
+  font-weight: bold;
+  text-align: center;
+}
+
+p:nth-child(2){
+  color: gray;
+  margin: 0 3%;
+  text-align: justified;
+}
